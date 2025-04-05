@@ -6,7 +6,7 @@ html, body {
   }
 
   body {
-    background-image: url('/home/aditya/Desktop/webdev/experiments/blue.co/assets/images/Untitled Project.jpeg');
+    background-image: url('../images/Untitled Project.jpeg');
     background-size: 120% 128%;
     background-position: center;
     background-repeat: no-repeat;

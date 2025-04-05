@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: white;
-    background-image: url('/home/aditya/Desktop/webdev/experiments/blue.co/assets/images/shop_background.png');
+    background-image: url('../images/shop_background.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
