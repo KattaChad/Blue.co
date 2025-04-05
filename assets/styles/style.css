@@ -1,0 +1,93 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+
+  body {
+    background-image: url('/home/aditya/Desktop/webdev/experiments/blue.co/assets/images/Untitled Project.jpeg');
+    background-size: 120% 128%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+  }
+
+  
+  /* Top Navigation */
+  .top-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between; /* Key for left-right layout */
+    align-items: center;
+    padding: 20px 40px;
+    font-size: 22px;
+    box-sizing: border-box;
+  }
+  
+  .top-nav .left,
+  .top-nav .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .top-nav .right i {
+    margin-left: 20px; /* space between icons */
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+
+  /* Center Content */
+  .center-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .center-content h1 {
+    font-size: 5em;
+    margin-bottom: 10px;
+  }
+
+  .center-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+
+  .center-content button {
+    background-color: #2a6eff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+
+  /* Bottom Navigation */
+  .bottom-nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding: 12px 0;
+  }
+
+  .bottom-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 0.9em;
+  }
+
+  .bottom-nav a:hover {
+    text-decoration: underline;
+  }

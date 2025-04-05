@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-image: url('/home/aditya/Desktop/webdev/experiments/blue.co/assets/images/shop_background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    font-size: 24px;
+  }
+  
+  .header i {
+    cursor: pointer;
+  }
+  
+  .icons a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  .product-heading {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 30px;
+    padding: 40px;
+    justify-items: center;
+  }
+  
+  .product-card {
+    background-color: #f5f5f5;
+    width: 200px;
+    text-align: center;
+    color: black;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .product-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(30, 30, 30, 0.9);
+    color: white;
+    padding: 10px;
+    font-size: 0.9em;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .product-card:hover .product-info {
+    opacity: 1;
+  }
+  
+  
